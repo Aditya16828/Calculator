@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(rgb(255, 0, 0, 1), rgb(0, 0, 255, 1));
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    height: 762px;
+}
+
+h1 {
+    color: rgb(189, 219, 245);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-self: center;
+}
+
+body span {
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: azure;
+}
+
+body li {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    border: 0px;
+    width: auto;
+    margin: 20px;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+a:hover {
+    animation-name: anime;
+    animation-duration: 0.5s;
+    color: rgb(20, 238, 49);
+    font-size: 40px;
+}
+
+@keyframes anime {
+    from {color: aqua; font-size: 25px;}
+    to {color: rgb(20, 238, 49); font-size: 40px;}
+}
+

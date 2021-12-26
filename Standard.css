@@ -1,0 +1,73 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.starts {
+    display: flex;
+    width: fit-content;
+    height: 400px;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 5px;
+    align-items: center;
+    background-color: rgb(164, 240, 240);
+    border-radius: 5px;
+}
+
+.starts input {
+    height: 30%;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+.starts .calc_body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    border: none;
+}
+
+.starts .calc_body div {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: auto;
+    height: 100%;
+}
+
+.starts .calc_body div button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: azure;
+}
+
+.starts .calc_body div button:hover {
+    background-color: #77b3b3a9;
+}
+
+.starts .calc_body div .numpad{
+    background-color: white;
+}
+
+.starts .calc_body div .equalto{
+    background-color: royalblue;
+}
+
+.starts .calc_body div .equalto:hover{
+    background-color: rgb(26, 81, 247);
+}
+
+.starts .calc_body div .numpad:hover {
+    background-color: rgb(192, 187, 187);
+}
